@@ -1,0 +1,917 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5637033854140654 -0.534404519688716 -0.6298017962891135 4.300110045132957
+  position -0.29611950798331266 -0.9321981686629198 4.214241809011827
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+  luminosity 0.3
+  castShadows FALSE
+}
+RectangleArena {
+  floorSize 5 4
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+E-puck {
+  hidden position_0_0 1790.163710574812
+  hidden position_0_1 1659.2433370633175
+  hidden rotation_1 0 1 0 5.739083335809498
+  hidden rotation_2 0 0.9999999999999999 0 0.48241596790670976
+  translation -1.2969400001782274 0.35373399995519406 -6.39621353475811e-05
+  rotation 5.619192160877168e-05 -0.00045391513219618027 0.9999998954017548 0.24629669110145902
+  controller "<none>"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+Solid {
+  translation -0.6975383702726262 0.29992240596648234 0.04970181348129553
+  rotation -4.086629404024764e-05 4.0598136444770724e-05 -0.9999999983408687 1.564241573707746
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.76 0.01 0.1
+      }
+    }
+  ]
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 3.384478639035153e-08 -9.096061836989581e-08 -2.2829379036551907e-07
+  angularVelocity 1.1718501470212841e-08 -1.8900336230846544e-06 3.291880654709801e-07
+}
+Solid {
+  translation -0.6973815455305772 -0.4599823467347169 0.04984306399091697
+  rotation -0.00011143217241732702 0.00011293802699286264 -0.9999999874139365 1.5838058851290318
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 1.2066789337773759e-08 -8.123740105787932e-10 -1.2091436843776728e-07
+  angularVelocity -9.044966571233222e-08 -6.865810950580667e-06 -1.6857990899248225e-06
+}
+Solid {
+  translation -0.5199432472253475 -2.6802847370090567e-05 0.048351924114450696
+  rotation -2.149781470333611e-05 2.1490394858049963e-05 -0.9999999995380034 1.570717094641277
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1.4 0.03 0.1
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -3.133997230748651e-08 -2.7734181069771764e-10 -1.9044353480456348e-10
+  angularVelocity 4.3513818053596394e-10 -2.106732835019487e-06 1.0180063776449716e-07
+}
+Solid {
+  translation 0.49241573826830115 0.4900962977592704 0.049686079993406705
+  rotation -8.675096738511256e-06 8.726751776202787e-06 -0.9999999999242931 1.5767332278869584
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.8 0.01 0.1
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -2.380629382899389e-06 1.4133084119682232e-08 3.7698555388487335e-11
+  angularVelocity -2.826601404802991e-07 -4.761232789241677e-05 1.0581001763062763e-16
+}
+Solid {
+  translation 0.24999913471831253 0.30001427263301217 0.04968614009219253
+  rotation 3.835476644021694e-07 -3.8779478207374363e-07 -0.9999999999998513 1.5708035070578328
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.8 0.01 0.1
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.9445080819448243e-08 2.1521011687175567e-08 -1.9329490534404542e-07
+  angularVelocity 1.1170913810087406e-10 -3.2877062021446125e-07 -4.385017967936287e-08
+}
+Solid {
+  translation 0.6531266022263412 -0.4900079452276471 0.049686152672307485
+  rotation -0.00014316845472916634 0.0001425837763032866 -0.9999999795863298 1.566843573044106
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.8 0.01 0.1
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 2.367502246214398e-07 -1.381956666558425e-09 -1.9406391196243801e-07
+  angularVelocity 4.0425271151219115e-08 -1.0158998721950338e-05 3.016470089771732e-07
+}
+Solid {
+  translation 0.8800014285889625 -0.09998520525027946 0.04984303530870616
+  rotation -1.0779871718649331e-06 1.0888084476530248e-06 -0.9999999999988263 1.5708138856324756
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(25)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -3.670156129317147e-07 2.616998351290256e-07 2.525637299299885e-10
+  angularVelocity 8.78873589290607e-10 -7.193078900408289e-06 -3.2380047332045e-08
+}
+Solid {
+  translation 0.6479886365200322 -1.2713862877364484 0.049882280410157465
+  rotation -1.2200185948321132e-06 1.249280803016215e-06 -0.9999999999984753 1.5849154885510304
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(30)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -7.556477635658833e-07 1.532379986714922e-08 -3.2056205157004783e-09
+  angularVelocity -3.064744783070888e-07 -1.5112886376827532e-05 -2.245395968318316e-13
+}
+Solid {
+  translation 0.26005865025749564 -1.2807530207879778 0.049882275991866815
+  rotation -6.198664158061296e-05 6.153945558760465e-05 -0.9999999961852758 1.5629487080563196
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(36)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -7.18391054895425e-08 5.64878637127511e-09 -5.484111890536424e-10
+  angularVelocity -7.75268838358619e-08 -5.322838459052673e-06 1.157744330248525e-06
+}
+Solid {
+  translation 0.012433312709361365 -1.281804517026525 0.049882281951290235
+  rotation -1.7190540218202146e-06 1.7573032367857348e-06 -0.9999999999969783 1.5844301345822258
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(37)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.063584281414572e-06 2.0224723483653045e-08 -1.5253487219977458e-08
+  angularVelocity -4.044924769727736e-07 -2.1271588658004852e-05 -3.8862187263422764e-13
+}
+Solid {
+  translation -0.3729816165763837 -1.2807158260195637 0.04988228000004195
+  rotation -7.0382754352707696e-09 6.565344356354704e-09 -1 1.4993168299325024
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(40)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -3.976604952058272e-09 -2.7965212350370763e-10 -3.279391573111392e-13
+  angularVelocity 5.59301677957454e-09 -7.953173628306693e-08 -2.6010163499053474e-17
+}
+Solid {
+  translation -0.6035953608039625 -1.1599990535653217 0.04979202451672128
+  rotation 0.00014285118320309377 -0.00014311019468273893 -0.9999999795565055 1.5719236359106599
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.53 0.01 0.1
+      }
+    }
+  ]
+  name "solid(41)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.0383432886244483e-07 -2.3895395530783442e-09 -1.2144346661048789e-07
+  angularVelocity 3.444689269187357e-08 9.268882724767385e-06 1.2533820678922313e-06
+}
+Solid {
+  translation 0.023436331483147808 -0.7502104518138748 0.04988227658202575
+  rotation -0.00013254959351502335 0.0001296618523625754 -0.9999999828092044 1.5479946396789888
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(38)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 5.2732141173373715e-08 -1.5634139825415618e-07 -7.559286596384966e-08
+  angularVelocity 1.3591814923399237e-07 -7.062711633590401e-06 2.524892656436234e-06
+}
+Solid {
+  translation 0.25164842668129866 -0.7400080660954541 0.049882278145145204
+  rotation 3.921296829182572e-05 -4.109600495161643e-05 -0.9999999983867308 1.6194239717354038
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(39)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.8695510101141008e-07 8.565513484442193e-09 -7.222943494866171e-08
+  angularVelocity 5.3971212179645407e-08 1.158608952978951e-06 -2.4039169080792716e-06
+}
+Solid {
+  translation 0.8800323333447122 -0.9700105677383968 0.04964685343413355
+  rotation -5.919786517426335e-05 5.919689853632104e-05 -0.9999999964956701 1.5707695491477094
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.9 0.01 0.1
+      }
+    }
+  ]
+  name "solid(29)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -9.719203290302724e-06 1.59300967360486e-08 6.18987756853233e-10
+  angularVelocity 4.933283942145993e-09 -0.0001945218453799395 1.1193832803590393e-08
+}
+Solid {
+  translation -0.36093922064648803 0.920764548056821 0.04466336000000005
+  rotation 4.946604889021006e-19 3.089697274560416e-14 1 3.1412733473200913
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 1.7 0.08 0.1
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.1096173368635091e-18 -2.0711721678937095e-14 -5.349968833958225e-16
+  angularVelocity 4.143904999423259e-13 6.792066031544268e-18 5.289505205680903e-18
+}
+Solid {
+  translation -0.8451473281893676 0.6825260064456294 0.049882289385438185
+  rotation -0.0034171997131654166 9.46113129343275e-05 0.9999941568803389 0.016793068663108396
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 2.9291471360660225e-08 -3.7573156834950365e-08 -9.097023147811708e-08
+  angularVelocity 2.5934106156945747e-06 4.0133083450626335e-08 5.69653424995038e-07
+}
+Solid {
+  translation -0.3614130442231602 0.6856329771550258 0.04967039403140801
+  rotation -0.04530966863168951 -0.00011716651626257395 0.9989729827179982 0.0044328238813909305
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.28 0.03 0.1
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -6.094286504015094e-11 -1.2630166115137768e-07 -3.744097349616432e-10
+  angularVelocity 9.467066603636161e-06 4.5103710024008254e-08 2.3113727539182487e-06
+}
+Solid {
+  translation 0.10468308739193392 0.7008351966570612 0.049882273442194855
+  rotation -0.010258062437580007 -0.00014830052880616975 0.9999473736962261 0.029681709406089333
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -4.6928449076721875e-09 1.7335201146032965e-07 -7.218899521414715e-08
+  angularVelocity 8.80874083637177e-06 2.5811097276577195e-07 2.1006513215662995e-06
+}
+Solid {
+  translation 0.6844760132212903 0.09501045286090996 0.049843034231323205
+  rotation -0.0013837632225894353 -3.580418307918225e-05 0.9999990419582433 0.05247733002886766
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -7.855040689720006e-09 1.5567338449928808e-07 5.978701977937818e-11
+  angularVelocity -8.090142445082727e-07 -4.2896240603662573e-08 5.492018150388615e-07
+}
+Solid {
+  translation 0.4465240715179883 -0.09910992400654652 0.049843009151000164
+  rotation 0.010412476587069928 0.00015974045028272074 0.9999457759370316 0.030599007352100725
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -3.1259121346363643e-07 -1.5971280865299803e-08 -9.519651623434458e-08
+  angularVelocity -9.711024656144628e-06 -2.9923790584411386e-07 2.4106870287287715e-06
+}
+Solid {
+  translation 0.44965842382215726 -0.8863764137159337 0.049843029918045935
+  rotation 0.025847534882901663 0.00039038327193842903 0.9996658204326974 0.016591921949689507
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(32)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.4272788138480767e-07 1.001024062923664e-06 -9.567028634194291e-08
+  angularVelocity -2.0326655920491927e-05 -4.7620865604702097e-07 3.742659191613579e-08
+}
+Solid {
+  translation -0.28827491386796006 -0.8985538054068127 0.049756766569694404
+  rotation 0.0013726082277672063 1.1997045362825525e-05 0.9999990579009183 0.016438127958337698
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.62 0.01 0.1
+      }
+    }
+  ]
+  name "solid(34)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 3.9649071669886e-08 2.79369892020199e-08 -1.561830791549665e-07
+  angularVelocity -7.445833119631566e-07 -3.1622066005099004e-08 8.505071798145245e-09
+}
+Solid {
+  translation -0.17298561717993127 -1.1330397705193902 0.04984304001234281
+  rotation 6.787118516960217e-06 1.1886959931647217e-07 0.9999999999769604 0.03502918514021086
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(35)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -2.2590118872291372e-09 6.446936154672354e-08 -9.651532906217948e-11
+  angularVelocity -1.2893802344413118e-06 -4.517999234934126e-08 -8.872545543066497e-19
+}
+Solid {
+  translation 0.4547743049169607 -1.1208538436517579 0.04984303999961652
+  rotation 2.5450829982796485e-05 3.086952853543813e-07 0.99999999967608 0.024233546734331826
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(33)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -4.057671639046803e-09 1.6729096661474138e-07 3.048121755000306e-12
+  angularVelocity -3.345801177498855e-06 -8.115299238112393e-08 1.8767145119749064e-17
+}
+Solid {
+  translation 1.0711293151867736 -0.2988660356242145 0.049843048894636435
+  rotation 0.007298034187422181 0.00012121255033075755 0.9999733616474575 0.03281435181136663
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(26)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -3.1007313872733498e-09 1.1397289300441047e-07 -2.021161193965782e-10
+  angularVelocity -9.818771225108493e-06 -3.2379264090714503e-07 1.7534036442956157e-06
+}
+Solid {
+  translation 1.0745454676028234 -0.5139135482157886 0.04984303001386755
+  rotation -0.027488565189384934 -8.764316671021973e-05 0.9996221141523952 0.0055391788663414305
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.4 0.01 0.1
+      }
+    }
+  ]
+  name "solid(27)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -8.30142998303447e-08 6.300012192172251e-08 4.743249348848586e-11
+  angularVelocity 3.5292532350645233e-06 2.3582172153209295e-08 -1.1950657014294025e-06
+}
+Solid {
+  translation -0.9994867978297317 0.3299975093118082 0.049725356015307365
+  rotation -2.7520738472118702e-05 2.745278101667214e-05 -0.9999999992444769 1.5689673916019737
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.7 0.01 0.1
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 1.0017172230726733e-07 -1.811828091943761e-09 -2.244939623454069e-07
+  angularVelocity 2.4963182370663208e-08 -4.273706706123821e-07 4.941752866441941e-07
+}
+Solid {
+  translation -0.22957342065304717 0.5211460322507963 0.049882273612714904
+  rotation 0.0001367144951845765 -0.00013992230683592598 -0.9999999808654473 1.6059723322435597
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 1.6111457316008344e-07 -3.4803484566303666e-07 4.4197207671459203e-10
+  angularVelocity 3.454915226422456e-07 1.210787434521087e-05 -2.6367017898735986e-06
+}
+Solid {
+  translation -0.03982541838771641 0.5413886470899403 0.04988228675489191
+  rotation 3.2135358592041166e-07 -3.3759522316161223e-07 -0.9999999999998913 1.5692746006782496
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 5.8126996231646735e-09 -1.3366615459808883e-07 -7.246690273632565e-08
+  angularVelocity 8.163129044007161e-10 3.295125842574573e-08 3.2803074076829096e-09
+}
+Solid {
+  translation -1.2064617188601132 0.6531510582799137 0.049823387209472055
+  rotation -4.033269661783954e-06 3.7508697223297555e-06 -0.9999999999848318 1.5699980552386246
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.45 0.01 0.1
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -2.0481729531963807e-08 1.8876719845235036e-06 1.7626929446931975e-09
+  angularVelocity 1.6635956576439627e-08 -4.20177572606112e-07 1.0647695848148385e-07
+}
+Solid {
+  translation -1.2046942960195506 0.11970739847718075 0.049890142094506894
+  rotation 7.664140206830397e-05 -7.922411665389168e-05 -0.9999999939248173 1.6042207387985945
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.28 0.01 0.1
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 3.286554144435361e-08 -1.112570529910555e-07 -8.467647276688976e-08
+  angularVelocity 1.8148081508898677e-07 5.489677359301649e-06 -1.5593017482822045e-06
+}
+Solid {
+  translation -1.3499441320557803 0.26244091507665795 0.04988229345257593
+  rotation -0.004803853516634589 -3.9780074030427535e-05 0.9999884606378898 0.01623040686234682
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 8.443894979927311e-10 -5.9090215336222324e-08 -9.074834115570132e-08
+  angularVelocity 3.39671050468645e-06 5.556273249546438e-08 7.123734395800296e-07
+}
+Solid {
+  translation -1.3524623767432427 0.42157063838411923 0.04988228183356405
+  rotation 0.09515201696211774 0.0005083341840698881 0.9954626237405392 0.010961056320060574
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 2.250035773098433e-07 9.149145263036748e-07 1.2816898239028281e-09
+  angularVelocity -5.6001603972127805e-05 -6.039462851935374e-07 -1.244014376899132e-05
+}
+Solid {
+  translation -1.1038692674556445 -0.010003100920137894 0.04992151442992636
+  rotation 0.7905051397487521 -0.6087196400828573 0.06754275540872201 7.17850809411261e-06
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.2 0.01 0.1
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 1.0775122432117594e-07 1.278495109763985e-08 -6.030988387805804e-08
+  angularVelocity -4.251241760692118e-07 2.9393867481540644e-07 3.965929022225603e-08
+}
+Solid {
+  translation -0.12922872471852895 0.38416222055198945 0.04992151336433642
+  rotation 0.024500704070206533 0.001523381096903298 0.9996986519997403 0.0003908444378767871
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.2 0.01 0.1
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 4.4520991471293234e-07 5.917989798125219e-09 1.9838608977806869e-10
+  angularVelocity -4.4344745945097094e-07 -2.7263153882401347e-08 -5.8846889000957913e-08
+}
+Solid {
+  translation 1.2778266141849117 -0.40011227276946143 0.04990974921280899
+  rotation 2.670987628119983e-05 2.714178938059285e-05 0.9999999992749529 1.5864508437114737
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.23 0.01 0.1
+      }
+    }
+  ]
+  name "solid(28)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -3.386864767965418e-08 -3.3495803622471067e-10 2.6731791659467196e-10
+  angularVelocity 3.457079283325111e-08 -2.344120646826451e-06 6.770527513411989e-07
+}
+Solid {
+  translation 0.7674003554830309 -1.4225918279891503 0.04990974170390116
+  rotation 0.007155113602697587 -7.80964313373132e-05 -0.9999743987974292 0.022402971733533544
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.23 0.01 0.1
+      }
+    }
+  ]
+  name "solid(31)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -5.500451359301459e-09 -2.2661090547430567e-07 2.4065161843954344e-10
+  angularVelocity -6.084006625256285e-07 1.171329463361541e-08 -2.086845830431493e-06
+}
+Solid {
+  translation 0.13611834555298996 -1.4200037552045521 0.04990582838789495
+  rotation 0.31001843006055807 -0.03156414613273733 0.9502064395181176 6.116859070498718e-06
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.24 0.01 0.1
+      }
+    }
+  ]
+  name "solid(42)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.9278272227094047e-07 2.7042890015496508e-08 -5.347536517300928e-09
+  angularVelocity -5.761664347692386e-07 3.0403045479969984e-08 5.267340672072357e-08
+}
+Solid {
+  translation 0.13334631768795033 -0.5974749073694193 0.049905828468391915
+  rotation -0.00664828393887266 -0.00027582343172420144 -0.999977861876003 0.02156935111635268
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.24 0.01 0.1
+      }
+    }
+  ]
+  name "solid(44)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -5.041960853731841e-08 -1.5519235009118366e-07 -5.463495374631583e-08
+  angularVelocity 6.361763653388941e-06 2.561523844781489e-07 -1.2064153002960757e-06
+}
+Solid {
+  translation -0.4838760524719779 -1.4200041623706559 0.04990975078266227
+  rotation -0.5413105144645877 -0.021204934520064646 0.8405553388576406 1.8661553279226777e-06
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.23 0.01 0.1
+      }
+    }
+  ]
+  name "solid(43)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 1.1744017042905269e-07 1.2847087053727567e-08 -5.536710660961798e-08
+  angularVelocity -2.594455579602442e-07 1.6896085924634776e-08 -4.2909608178537055e-08
+}
+Solid {
+  translation -1.0050452865394934 -0.17999953454551476 0.04992151620237681
+  rotation -0.00010726833015580267 -0.00010736923247250301 0.9999999884826768 1.571181117459201
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.2 0.01 0.1
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.8975045677160903e-07 -2.235752201088432e-09 -5.452478724520941e-08
+  angularVelocity 5.105017823277302e-08 5.894634599857452e-06 -1.4876110081592562e-06
+}
+Solid {
+  translation -1.5064901325676459 0.3397626964398609 0.04992152329168947
+  rotation -6.766632217779883e-05 -6.851153879638942e-05 0.9999999953637189 1.582797947668342
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.2 0.01 0.1
+      }
+    }
+  ]
+  name "solid(46)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 3.254215152459494e-08 1.520270707933147e-10 -8.158689723813945e-11
+  angularVelocity -7.023713003599537e-08 5.778396385298066e-06 1.964257121148922e-06
+}
+Solid {
+  translation -0.6348899616046613 -0.669783261478065 0.04992151583932742
+  rotation -1.8712214326733523e-07 -4.527195044709631e-07 0.9999999999998802 -3.1410882019918045
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.2 0.01 0.1
+      }
+    }
+  ]
+  name "solid(45)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -7.346577576398254e-08 2.504434658542215e-09 1.949755557006938e-10
+  angularVelocity -4.497260113596435e-08 1.061855564671709e-08 -3.152413782040447e-08
+}
+Solid {
+  translation -0.8499616054000547 -0.26753295288727974 0.0498822905778645
+  rotation 0.00020450046888886224 1.2469201681543018e-05 0.9999999790120384 0.016427629661435236
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity -1.5418616137926233e-08 3.852235719951293e-09 -9.064370985356455e-08
+  angularVelocity 2.2377791507794128e-08 -4.530147879902288e-09 -4.057426761757792e-08
+}
+Solid {
+  translation -0.8500767697742136 -0.0800008747292799 0.04988228688159538
+  rotation -0.07526096357819483 0.0020747822180766347 0.9971617133845588 1.590252120061322e-05
+  children [
+    DEF innerWall Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.3 0.01 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject USE innerWall
+  physics Physics {
+  }
+  linearVelocity 1.8252526416518002e-08 1.554004225550047e-07 -9.64802872260921e-08
+  angularVelocity -3.131809074140674e-06 1.2262340354074749e-08 3.8835076299697576e-08
+}
+PointLight {
+  attenuation 0 0 1
+  location 0.17 -0.7 0.4
+  radius 80
+}
